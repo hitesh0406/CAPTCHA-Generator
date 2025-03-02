@@ -1,0 +1,26 @@
+{
+  "name": "captcha-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh0406/CAPTCHA-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitesh0406/CAPTCHA-Generator/issues"
+  },
+  "homepage": "https://github.com/hitesh0406/CAPTCHA-Generator#readme",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Simple CAPTCHA Generator</h1>
+    <div class="captcha-box">
+        <img src="/captcha" id="captchaImg" alt="Captcha">
+        <button onclick="reloadCaptcha()">🔄 Reload</button>
+    </div>
+    <form id="captchaForm">
+        <input type="text" name="captcha" placeholder="Enter CAPTCHA" required>
+        <button type="submit">Verify</button>
+    </form>
+    <p id="result"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
